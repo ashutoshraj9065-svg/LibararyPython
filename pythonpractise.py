@@ -18,10 +18,21 @@
 # print(largest)
 
 
-numbers = [18, 7, 25, 3, 12]
-smallest=numbers[0]
+# numbers = [18, 7, 25, 3, 12]
+# smallest=numbers[0]
+
+# for i in numbers:
+#     if smallest>i:
+#         smallest=i
+# print(smallest)
+
+numbers = [10, 20, 30, 40, 50]
+largest=numbers[0]
+secondlargest=[0]
 
 for i in numbers:
-    if smallest>i:
-        smallest=i
-print(smallest)
+    if i>largest:
+         secondlargest=largest
+         largest=i
+      
+print(secondlargest)
