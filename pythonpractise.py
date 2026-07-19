@@ -28,7 +28,7 @@
 
 numbers = [10, 20, 30, 40, 50]
 largest=numbers[0]
-secondlargest=[0]
+secondlargest=numbers[0]
 
 for i in numbers:
     if i>largest:
@@ -36,3 +36,4 @@ for i in numbers:
          largest=i
       
 print(secondlargest)
+print("error")
