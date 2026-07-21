@@ -26,14 +26,37 @@
 #         smallest=i
 # print(smallest)
 
-numbers = [10, 20, 30, 40, 50]
+# numbers = [10, 20, 30, 40, 50]
+# largest=numbers[0]
+# secondlargest=numbers[0]
+
+# for i in numbers:
+#     if i>largest:
+#          secondlargest=largest
+#          largest=i
+      
+# print(secondlargest)
+# print("error")
+
+
+numbers = [12, 45, 7, 89, 23,50]
 largest=numbers[0]
-secondlargest=numbers[0]
+second=numbers[0]
+third=numbers[0]
 
 for i in numbers:
-    if i>largest:
-         secondlargest=largest
-         largest=i
-      
-print(secondlargest)
-print("error")
+    if i > largest:
+        third=second
+        second=largest
+        largest=i
+    elif i >second:
+        third=second
+        second=i
+    elif i > third:
+        third=i
+print(third)
+print(second)
+print(largest)
+        
+
+    
