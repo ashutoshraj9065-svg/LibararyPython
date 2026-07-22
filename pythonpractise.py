@@ -39,24 +39,31 @@
 # print("error")
 
 
-numbers = [12, 45, 7, 89, 23,50]
-largest=numbers[0]
-second=numbers[0]
-third=numbers[0]
+# numbers = [12, 45, 7, 89, 23,50]
+# largest=numbers[0]
+# second=numbers[0]
+# third=numbers[0]
 
-for i in numbers:
-    if i > largest:
-        third=second
-        second=largest
-        largest=i
-    elif i >second:
-        third=second
-        second=i
-    elif i > third:
-        third=i
-print(third)
-print(second)
-print(largest)
+# for i in numbers:
+#     if i > largest:
+#         third=second
+#         second=largest
+#         largest=i
+#     elif i >second:
+#         third=second
+#         second=i
+#     elif i > third:
+#         third=i
+# print(third)
+# print(second)
+# print(largest)
         
 
+
+numbers = [10, 20, 10, 30, 20, 40, 10]
+count =0
+for i in numbers:
+    if i==10:
+        count=count+1
+print(count)
     
