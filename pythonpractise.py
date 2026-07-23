@@ -60,10 +60,20 @@
         
 
 
-numbers = [10, 20, 10, 30, 20, 40, 10]
-count =0
+# numbers = [10, 20, 10, 30, 20, 40, 10]
+# count =0
+# for i in numbers:
+#     if i==10:
+#         count=count+1
+# print(count)
+
+numbers = [12, 7, 19, 25, 8, 30, 15]
+count=0
+
+
 for i in numbers:
-    if i==10:
+    if i>15:
         count=count+1
+
 print(count)
     
