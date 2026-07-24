@@ -67,13 +67,22 @@
 #         count=count+1
 # print(count)
 
-numbers = [12, 7, 19, 25, 8, 30, 15]
-count=0
+# numbers = [12, 7, 19, 25, 8, 30, 15]
+# count=0
 
+
+# for i in numbers:
+#     if i>15:
+#         count=count+1
+
+# print(count)
+
+numbers = [12, 45, 18, 7, 33, 50, 21]
+min2=numbers[0]
 
 for i in numbers:
-    if i>15:
-        count=count+1
+    if min2>i:
+        min2=i
 
-print(count)
+print(min2)
     
