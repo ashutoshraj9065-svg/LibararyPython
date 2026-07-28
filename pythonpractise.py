@@ -77,12 +77,33 @@
 
 # print(count)
 
-numbers = [12, 45, 18, 7, 33, 50, 21]
-min2=numbers[0]
+# numbers = [12, 45, 18, 7, 33, 50, 21]
+# min2=numbers[0]
+
+# for i in numbers:
+#     if min2>i:
+#         min2=i
+
+# print(min2)
+
+numbers = [10,20,10,30,20,40,10]
+
+visited = []
 
 for i in numbers:
-    if min2>i:
-        min2=i
 
-print(min2)
+    if i in visited:
+        continue
+
+    count = 0
+
+    for j in numbers:
+
+        if i == j:
+            count = count + 1
+
+    print(i, "->", count)
+
+    visited.append(i)
+
     
