@@ -105,5 +105,5 @@ for i in numbers:
     print(i, "->", count)
 
     visited.append(i)
-
+print("hello")
     
