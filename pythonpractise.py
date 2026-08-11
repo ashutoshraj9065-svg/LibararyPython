@@ -105,5 +105,8 @@ for i in numbers:
     print(i, "->", count)
 
     visited.append(i)
-print("hello")
+a=10
+b=10
+c=a+b
+print(c)
     
